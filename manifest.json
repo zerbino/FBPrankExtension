@@ -1,0 +1,10 @@
+{
+  "name": "FB prank",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Prank extension that adds an animation on the login inputs of facebook homepage",
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": [ "https://*.facebook.com/", "https://www.facebook.com/" ]
+  }]
+}

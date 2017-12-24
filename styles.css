@@ -1,0 +1,14 @@
+#pagelet_bluebar:hover form#login_form {
+    position: relative;
+    transition: left 0.10s linear;
+    -webkit-transition: left 0.10s linear;
+    left: 1000px;
+}
+
+#pagelet_bluebar form#login_form {
+    position: relative;
+    transition: left 0.10s linear;
+    -webkit-transition: left 0.10s linear;
+    left: 0;
+}
+
