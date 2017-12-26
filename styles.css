@@ -1,26 +1,59 @@
 #pagelet_bluebar:hover form#login_form {
     position: relative;
-    transition: left 0.10s linear;
-    -webkit-transition: left 0.10s linear;
+    transition: left 0.5s linear;
+    -webkit-transition: left 0.5s linear;
     left: 1000px;
 }
 
 #pagelet_bluebar form#login_form {
     position: relative;
-    transition: left 0.10s linear;
-    -webkit-transition: left 0.10s linear;
+    transition: left 0.5s linear;
+    -webkit-transition: left 0.5s linear;
     left: 0;
 }
 
-#pagelet_bluebar i.fb_logo {
-    position: relative;
-    top: 0;
+form#login_form input#pass:focus,
+form#login_form input#email:focus {
+    border: none;
+    background-color: #3b5998;
+    outline: none;
+    color: transparent;
+    text-shadow: 0 0 0 transparent;
 }
 
-#pagelet_bluebar:hover i.fb_logo {
+#pagelet_bluebar i#old_fb_logo.fb_logo {
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear 0.4s;
+    -webkit-transition: top 0.2s linear 0.4s;
+}
+
+#pagelet_bluebar:hover i#old_fb_logo.fb_logo {
     position: relative;
     top: 100px;
     transition: top 0.2s linear;
     -webkit-transition: top 0.2s linear;
 }
 
+#pagelet_bluebar #new_prank_logo {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    transition: bottom 0.2s linear;
+    -webkit-transition: bottom 0.2s linear;
+}
+
+#pagelet_bluebar:hover #new_prank_logo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: bottom 0.2s linear 0.4s;
+    -webkit-transition: bottom 0.2s linear 0.4s;
+}
+
+.logo_parent {
+    position: relative;
+}
