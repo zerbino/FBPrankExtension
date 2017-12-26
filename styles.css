@@ -12,3 +12,15 @@
     left: 0;
 }
 
+#pagelet_bluebar i.fb_logo {
+    position: relative;
+    top: 0;
+}
+
+#pagelet_bluebar:hover i.fb_logo {
+    position: relative;
+    top: 100px;
+    transition: top 0.2s linear;
+    -webkit-transition: top 0.2s linear;
+}
+
